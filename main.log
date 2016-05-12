@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 MAY 2016 08:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 MAY 2016 10:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -749,7 +749,7 @@ Package babel Info: Making ? an active character on input line 374.
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 Package frenchb.ldf Info: No list customisation for the beamer class,
-(frenchb.ldf)             reported on input line 21.
+(frenchb.ldf)             reported on input line 18.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -1182,26 +1182,58 @@ Package: beamerinnerthemerectangles 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
 ememiniframes.sty
 Package: beamerouterthememiniframes 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)) (./main.aux)
+))
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\new@ifnextchar' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 7.
+
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 36.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1phv.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 16.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 *geometry* driver: auto-detecting
@@ -1268,7 +1300,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box70
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 16.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1278,56 +1310,56 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count182
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 (./main.out) (./main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 36.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 16.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 36.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 16.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 36.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 16.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 36.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 36.
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 16.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 36.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 36.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 16.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 36.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 36.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 16.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 36.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 36.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 16.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 36.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 16.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 36.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 36.
+(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 36.
+(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 36.
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 36.
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 36.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 16.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1353,10 +1385,10 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 36.
-LaTeX Info: Redefining \degres on input line 36.
-LaTeX Info: Redefining \dots on input line 36.
-LaTeX Info: Redefining \up on input line 36.
+LaTeX Info: Redefining \includegraphics on input line 16.
+LaTeX Info: Redefining \degres on input line 16.
+LaTeX Info: Redefining \dots on input line 16.
+LaTeX Info: Redefining \up on input line 16.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Incompatible package detected (regarding \caption).
 (caption)             \caption = macro:->\ifx \@captype \@undefined \@latex@err
@@ -1372,15 +1404,12 @@ See the caption package documentation for explanation.
 
 Package caption Info: End \AtBeginDocument code.
 (./main.nav)
-Overfull \hbox (1.38435pt too wide) in paragraph at lines 36--36
+Overfull \hbox (1.38435pt too wide) in paragraph at lines 16--16
 [][]  
  []
 
-<images/logo.png, id=64, 392.667pt x 79.0152pt>
-File: images/logo.png Graphic file (type png)
- <use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 40.
-(pdftex.def)             Requested size: 58.8975pt x 11.85176pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 20.
 
 Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [][] 
@@ -1388,12 +1417,8 @@ Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./images/logo.png>] (./main.toc)
-File: images/logo.png Graphic file (type png)
- <use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 49.
-(pdftex.def)             Requested size: 58.8975pt x 11.85176pt.
-
+]
+(./main.toc)
 Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [][] 
  []
@@ -1401,37 +1426,31 @@ Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [2
 
 ]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 108.
-LaTeX Font Info:    Try loading font information for U+msa on input line 108.
+LaTeX Font Info:    Try loading font information for U+msa on input line 88.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 108.
+LaTeX Font Info:    Try loading font information for U+msb on input line 88.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 108.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 88.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 108.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 88.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 108.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 88.
 
-Overfull \hbox (2.84648pt too wide) in paragraph at lines 108--108
+Overfull \hbox (2.84648pt too wide) in paragraph at lines 88--88
 []|\T1/phv/m/n/8 Couleur| 
  []
 
 
-Overfull \hbox (1.43848pt too wide) in paragraph at lines 108--108
+Overfull \hbox (1.43848pt too wide) in paragraph at lines 88--88
 []|\T1/phv/m/n/8 Orange| 
  []
 
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 108.
-(pdftex.def)             Requested size: 58.8975pt x 11.85176pt.
 
 Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [][] 
@@ -1440,11 +1459,6 @@ Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [3
 
 ]
-File: images/logo.png Graphic file (type png)
- <use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 140.
-(pdftex.def)             Requested size: 58.8975pt x 11.85176pt.
-
 Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [][] 
  []
@@ -1452,11 +1466,6 @@ Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [4
 
 ]
-File: images/logo.png Graphic file (type png)
- <use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 187.
-(pdftex.def)             Requested size: 58.8975pt x 11.85176pt.
-
 Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [][] 
  []
@@ -1464,11 +1473,6 @@ Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [5
 
 ]
-File: images/logo.png Graphic file (type png)
- <use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 201.
-(pdftex.def)             Requested size: 58.8975pt x 11.85176pt.
-
 Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [][] 
  []
@@ -1476,11 +1480,6 @@ Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [6
 
 ]
-File: images/logo.png Graphic file (type png)
- <use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 210.
-(pdftex.def)             Requested size: 58.8975pt x 11.85176pt.
-
 Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [][] 
  []
@@ -1488,11 +1487,6 @@ Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [7
 
 ]
-File: images/logo.png Graphic file (type png)
- <use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 221.
-(pdftex.def)             Requested size: 58.8975pt x 11.85176pt.
-
 Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [][] 
  []
@@ -1500,18 +1494,13 @@ Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [8
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 237.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 217.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 237.
-File: images/logo.png Graphic file (type png)
-
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 237.
-(pdftex.def)             Requested size: 58.8975pt x 11.85176pt.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 217.
 
 Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [][] 
@@ -1520,11 +1509,6 @@ Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [9
 
 ]
-File: images/logo.png Graphic file (type png)
- <use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 262.
-(pdftex.def)             Requested size: 58.8975pt x 11.85176pt.
-
 Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [][] 
  []
@@ -1532,11 +1516,6 @@ Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [10
 
 ]
-File: images/logo.png Graphic file (type png)
- <use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 285.
-(pdftex.def)             Requested size: 58.8975pt x 11.85176pt.
-
 Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [][] 
  []
@@ -1544,17 +1523,13 @@ Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [11
 
 ]
-<images/architecturebretonne_wikipedia.jpg, id=264, 216.81pt x 162.6075pt>
+<images/architecturebretonne_wikipedia.jpg, id=258, 216.81pt x 162.6075pt>
 File: images/architecturebretonne_wikipedia.jpg Graphic file (type jpg)
 
 <use images/architecturebretonne_wikipedia.jpg>
 Package pdftex.def Info: images/architecturebretonne_wikipedia.jpg used on inpu
-t line 299.
+t line 279.
 (pdftex.def)             Requested size: 108.40472pt x 81.30354pt.
-File: images/logo.png Graphic file (type png)
- <use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 299.
-(pdftex.def)             Requested size: 58.8975pt x 11.85176pt.
 
 Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 [][] 
@@ -1572,21 +1547,21 @@ Overfull \hbox (1.38435pt too wide) has occurred while \output is active
 \tf@snm=\write10
 \openout10 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4719AB991250CAFE40197C68FCE241C3;526.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 303.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
  ) 
 Here is how much of TeX's memory you used:
- 25926 strings out of 493089
- 517019 string characters out of 6134842
- 663006 words of memory out of 5000000
- 28811 multiletter control sequences out of 15000+600000
- 37383 words of font info for 50 fonts, out of 8000000 for 9000
+ 25909 strings out of 493089
+ 516510 string characters out of 6134842
+ 662217 words of memory out of 5000000
+ 28794 multiletter control sequences out of 15000+600000
+ 40273 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,20n,89p,945b,1168s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -1594,10 +1569,10 @@ Here is how much of TeX's memory you used:
 live/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (12 pages, 249853 bytes).
+Output written on main.pdf (12 pages, 223381 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
+ 298 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
  35 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

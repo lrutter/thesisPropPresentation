@@ -14,9 +14,6 @@
 \LoadClass[compress,8pt]{beamer}
 
 
-
-
-
 \usepackage[frenchb]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -28,17 +25,11 @@
 \usepackage{tikz}
 
 
-
-
-
-
-
-
-
-
 %%%% Les Framacouleurs
+%31,166,80 kelly green
+% TEST YELLOW 209,204,51
 
-\definecolor{Framableu}{RGB}{12,91,122}
+\definecolor{Framableu}{RGB}{12,91,122} % bullet points, figure
 \definecolor{Framableulight}{RGB}{18,144,176}
 \definecolor{Framavert}{RGB}{142,156,72}
 \definecolor{Framavertlight}{RGB}{227,235,199}
@@ -103,15 +94,7 @@ coltitle=white,center title}}
 
 
 
-
-
-
-
-
-
 \beamerboxesdeclarecolorscheme{orange}{Framaorange}{Framaorangelight}
-
-
 
 \usecolortheme[named=Framableu]{structure}
 
@@ -119,22 +102,22 @@ coltitle=white,center title}}
 \useoutertheme[subsection=false]{miniframes}
 \setbeamertemplate{navigation symbols}{}
 
-\definecolor{sectionColor}{RGB}{0,0,0} % noir
-\definecolor{subsectionColor}{RGB}{97,97,97} % Framagris
-\definecolor{sectionTextColor}{RGB}{255,255,255} % blanc
-\definecolor{subsectionTextColor}{RGB}{255,255,255} % blanc
-\definecolor{leftFootlineColor}{RGB}{0,0,0}% noir
-\definecolor{middleFootlineColor}{RGB}{97,97,97} % Framagris
-\definecolor{rightFootlineColor}{RGB}{0,0,0}% noir
-\definecolor{authorColor}{RGB}{255,255,255}% blanc
-\definecolor{footlineTitleColor}{RGB}{255,255,255}% blanc
-\definecolor{instituteColor}{RGB}{0,0,0}% noir
-\definecolor{dateColor}{RGB}{255,255,255}% blanc
-\definecolor{pageColor}{RGB}{255,255,255}% blanc
-\definecolor{titleColor}{RGB}{12,91,122} % Framableu
-\definecolor{titleTextColor}{RGB}{255,255,255} % blanc
-\definecolor{bodyColor}{RGB}{255,255,255} % blanc
-\definecolor{normalTextColor}{RGB}{0,0,0} % noir
+\definecolor{sectionColor}{RGB}{0,0,0} % black
+\definecolor{subsectionColor}{RGB}{31,166,148} % gray
+\definecolor{sectionTextColor}{RGB}{255,255,255} % white
+\definecolor{subsectionTextColor}{RGB}{255,255,255} % white
+\definecolor{leftFootlineColor}{RGB}{0,0,0}% black
+\definecolor{middleFootlineColor}{RGB}{97,97,97} % gray
+\definecolor{rightFootlineColor}{RGB}{0,0,0}% black
+\definecolor{authorColor}{RGB}{255,255,255}% white
+\definecolor{footlineTitleColor}{RGB}{255,255,255}% white
+\definecolor{instituteColor}{RGB}{0,0,0}% black
+\definecolor{dateColor}{RGB}{255,255,255}% white
+\definecolor{pageColor}{RGB}{255,255,255}% white
+\definecolor{titleColor}{RGB}{31,166,80} % kellyGreen
+\definecolor{titleTextColor}{RGB}{255,255,255} % white
+\definecolor{bodyColor}{RGB}{255,255,255} % white
+\definecolor{normalTextColor}{RGB}{0,0,0} % black
 \definecolor{exampleTextColor}{RGB}{82,99,42} %Framavertfoncé
 \definecolor{alertTextColor}{RGB}{204,45,24} % Framarouge
 
@@ -184,10 +167,10 @@ coltitle=white,center title}}
 \end{beamercolorbox}%
 
 % Commenter les 4 lignes suivantes si vous ne voulez pas la barre des sous-sections.
-\begin{beamercolorbox}[ht=2.125ex,dp=1.125ex,%
-leftskip=.3cm,rightskip=.3cm plus1fil]{subsection in head/foot}
-\usebeamerfont{subsection in head/foot}\insertsubsectionhead
-\end{beamercolorbox}%
+%\begin{beamercolorbox}[ht=2.125ex,dp=1.125ex,%
+%leftskip=.3cm,rightskip=.3cm plus1fil]{subsection in head/foot}
+%\usebeamerfont{subsection in head/foot}\insertsubsectionhead
+%\end{beamercolorbox}%
 }
 \setbeamercolor{author in head/foot}{bg=leftFootlineColor, fg=authorColor}
 \setbeamercolor{title in head/foot}{bg=middleFootlineColor, fg=footlineTitleColor}
