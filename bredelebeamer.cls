@@ -10,9 +10,11 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{Bredelebeamer}[17/02/2015, v1.0]
 
+%\usepackage[T1]{fontenc}
+%\renewcommand*\familydefault{\sfdefault}
+
 \PassOptionsToPackage{svgnames}{xcolor}
 \LoadClass[compress,8pt]{beamer}
-
 
 \usepackage[frenchb]{babel}
 \usepackage[utf8]{inputenc}
@@ -55,7 +57,10 @@
 \usepackage{colortbl}
 \tcbuselibrary{skins}
 
+%\usepackage{enumitem}
 
+
+%\usefonttheme{structuresmallcapsserif}
 %%%% Merci : http://tex.stackexchange.com/questions/112343/beautiful-table-samples
 
 

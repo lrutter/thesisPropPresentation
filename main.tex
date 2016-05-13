@@ -1,5 +1,14 @@
 \documentclass{bredelebeamer}
 
+\renewcommand<>{\item}{\beameroriginal\item\vspace{\stretch{.1}}}
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usefonttheme{serif} % default family is serif
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\setbeamertemplate{itemize/enumerate body begin}{\Large}
+\setbeamertemplate{itemize/enumerate subbody begin}{\large}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \title[Ph.D. Thesis Proposal]{\huge Visualization methods for genealogical and RNA-sequencing datasets}
@@ -24,18 +33,51 @@
   % possibilité d'ajouter l'option [pausesections]
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{My Background}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Background %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{My Background}
 
 \begin{frame}{My Background}
 
+\begin{itemize}
+		\item Education
+		\begin{itemize}
+		  \item B.S. in Bioengineering\\ Pennsylvania State University (2003-2007)
+		  \item Major in Bioinformatics and Computational Biology\\ Iowa State University (2012-Present)
+		  \item Minor in Statistics\\ Iowa State University (2012-Present)
+		\end{itemize}
+		\item Internships
+		\begin{itemize}
+		  \item Okinawa Institute of Science and Technology (Summer 2014)
+		  \item MathWorks (Summer 2016)
+		\end{itemize}
+	\end{itemize}
+\end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+\begin{frame}{Motivation}
+
+\begin{itemize}
+		\item Use visualization to explore data, check data quality, assess model diagnostics, and compare results across methods
+		\item Problem: Limited choice of plots
+		\begin{itemize}
+		  \item Solution: Develop new plots
+		\end{itemize}
+		\item Problem: Large datasets
+		\begin{itemize}
+		  \item Solution: Improve computational expense
+		  \item Solution: Repair overplotting issues
+		  \item Solution: Enhance methods that discover patterns
+		  \item Solution: Incorporate interactive graphics
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Les blocs}
+\section{Blocks}
 
-\begin{frame}{Les blocs}
+\begin{frame}{Blocks}
 
 \begin{block}{Bloc simple}
 \begin{itemize}
@@ -63,9 +105,9 @@
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Les bo\^ites}
+\section{Boxes}
 
-\begin{frame}{Les boites}
+\begin{frame}{Boxes}
 
 \begin{columns}
 
@@ -110,42 +152,7 @@ une boite grise
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Les listes}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 4A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\subsection{Liste à item}
-
-\begin{frame}{Titre de la frame}
-
-	\begin{itemize}
-		\item premier élément de liste,
-		\item deuxième élément de liste,
-		\item troisième élément de liste.
-	\end{itemize}
-\end{frame} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 4B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		\subsection{Liste énumérative} 
-\begin{frame}{Titre de la frame} 
-	\begin{enumerate}
-		\item élément de liste numéro 1,
-		\item élément de liste numéro 2,
-		\item élément de liste numéro 3.  
-	\end{enumerate}
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 4C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		\subsection{Liste descriptive} 
-\begin{frame}{Titre de la frame} 
-	\begin{description}
-		\item [Thème de présentation : ] ces thèmes sont en fait...
-		\item [Thème de couleur : ] gère tout ce qui est couleur...
-		\item [Thème de police : ] s'occupe de tout ce qui est police, gras...
-		\item [Thème interne : ] s'occupe de l'apparence des éléments...
-	\end{description}
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 5 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Le texte}
+\section{Text}
 
 \begin{frame}{Titre de la frame} 
 
@@ -160,9 +167,9 @@ Voici du texte normal
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 6 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Les tableaux}
+\section{Tables}
 
-\begin{frame}{Tableaux}
+\begin{frame}{Tables}
 
 % merci: http://tex.stackexchange.com/questions/112343/beautiful-table-samples
 
@@ -185,7 +192,7 @@ Orange  & 60.00   & 90.00   & 120.00   & 150.00   & 420.00
 \end{frame}
 
 
-\begin{frame}{Tableaux}
+\begin{frame}{Tables}
 
 % merci: http://tex.stackexchange.com/questions/112343/beautiful-table-samples
 
@@ -208,7 +215,7 @@ Orange  & 60.00   & 90.00   & 120.00   & 150.00   & 420.00
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 7 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Les images}
+\section{Images}
 
 \begin{frame}{Titre de la frame} 
 

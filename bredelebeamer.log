@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 MAY 2016 10:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 MAY 2016 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,9 +8,9 @@ LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 
 LaTeX Warning: You have requested package `',
-               but the package provides `Bredelebeamer'.
+               but the package provides `bredelebeamer'.
 
-Package: Bredelebeamer 17/02/2015, v1.0
+Package: bredelebeamer 17/02/2015, v1.0
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamer.cls
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasercs.sty
 Package: beamerbasercs 2015/03/08 (rcs-revision 368aa9ba9d38)
@@ -725,7 +725,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \usepackage[frenchb]{
+l.17 \usepackage{
+                 enumitem}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \usepackage[frenchb]{
                           babel}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -737,7 +749,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 \usepackage[utf8]{
+l.19 \usepackage[utf8]{
                        inputenc}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -749,7 +761,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 \usepackage[T1]{
+l.20 \usepackage[T1]{
                      fontenc}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -761,7 +773,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \usepackage{
+l.21 \usepackage{
                  helvet}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -773,7 +785,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 \usepackage{
+l.22 \usepackage{
                  pdfpages}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -785,7 +797,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \usepackage{
+l.23 \usepackage{
                  graphicx}% http://ctan.org/pkg/graphicx
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -797,7 +809,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 \usepackage[footnotesize,hang]{
+l.24 \usepackage[footnotesize,hang]{
                                     caption} % réduire la taille des légen...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -810,7 +822,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \usepackage{
+l.25 \usepackage{
                  hyperref}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -822,7 +834,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 \usepackage{
+l.26 \usepackage{
                  tikz}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -834,7 +846,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \usepackage{
+l.53 \usepackage{
                  tcolorbox}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -846,7 +858,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \usepackage{
+l.54 \usepackage{
                  tabularx}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -858,7 +870,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \usepackage{
+l.55 \usepackage{
                  array}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -870,13 +882,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \usepackage{
+l.56 \usepackage{
                  colortbl}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.56 \tcbuselibrary
+l.57 \tcbuselibrary
                    {skins}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -891,13 +903,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \tcbuselibrary{s
+l.57 \tcbuselibrary{s
                      kins}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.62 \newcolumntype
+l.63 \newcolumntype
                    {Y}{>{\raggedleft\arraybackslash}X}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -912,13 +924,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 \newcolumntype{Y
+l.63 \newcolumntype{Y
                      }{>{\raggedleft\arraybackslash}X}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.62 ...columntype{Y}{>{\raggedleft\arraybackslash
+l.63 ...columntype{Y}{>{\raggedleft\arraybackslash
                                                   }X}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -927,7 +939,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.64 \tcbset
+l.65 \tcbset
             {tabrouge/.style={enhanced,arc=0em,fonttitle=\bfseries,fontupper...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -942,20 +954,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \tcbset{t
+l.65 \tcbset{t
               abrouge/.style={enhanced,arc=0em,fonttitle=\bfseries,fontupper...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (67.23433pt too wide) in paragraph at lines 64--67
+Overfull \hbox (67.23433pt too wide) in paragraph at lines 65--68
 \OT1/cmss/bx/n/8 back=Framarougelight!100!white,colframe=Framarouge!70!black,co
 lbacktitle=Framarouge!100!white, 
  []
 
 ! Undefined control sequence.
-l.68 \tcbset
+l.69 \tcbset
             {taborange/.style={enhanced,arc=0em,fonttitle=\bfseries,fontuppe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -970,20 +982,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \tcbset{t
+l.69 \tcbset{t
               aborange/.style={enhanced,arc=0em,fonttitle=\bfseries,fontuppe...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (79.83441pt too wide) in paragraph at lines 68--71
+Overfull \hbox (79.83441pt too wide) in paragraph at lines 69--72
 \OT1/cmss/bx/n/8 back=Framaorangelight!100!white,colframe=Framaorange!70!black,
 colbacktitle=Framaorange!100!white, 
  []
 
 ! Undefined control sequence.
-l.72 \tcbset
+l.73 \tcbset
             {tabvert/.style={enhanced,arc=0em,fonttitle=\bfseries,fontupper=...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -998,20 +1010,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 \tcbset{t
+l.73 \tcbset{t
               abvert/.style={enhanced,arc=0em,fonttitle=\bfseries,fontupper=...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (49.8009pt too wide) in paragraph at lines 72--75
+Overfull \hbox (49.8009pt too wide) in paragraph at lines 73--76
 \OT1/cmss/bx/n/8 back=Framavertlight!100!white,colframe=Framavert!70!black,colb
 acktitle=Framavert!100!white, 
  []
 
 ! Undefined control sequence.
-l.76 \tcbset
+l.77 \tcbset
             {tabbleu/.style={enhanced,arc=0em,fonttitle=\bfseries,fontupper=...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1026,20 +1038,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 \tcbset{t
+l.77 \tcbset{t
               abbleu/.style={enhanced,arc=0em,fonttitle=\bfseries,fontupper=...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (52.23419pt too wide) in paragraph at lines 76--79
+Overfull \hbox (52.23419pt too wide) in paragraph at lines 77--80
 \OT1/cmss/bx/n/8 back=Framableulight!100!white,colframe=Framableu!70!black,colb
 acktitle=Framableu!100!white, 
  []
 
 ! Undefined control sequence.
-l.80 \tcbset
+l.81 \tcbset
             {tabjaune/.style={enhanced,arc=0em,fonttitle=\bfseries,fontupper...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1054,20 +1066,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \tcbset{t
+l.81 \tcbset{t
               abjaune/.style={enhanced,arc=0em,fonttitle=\bfseries,fontupper...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (65.56761pt too wide) in paragraph at lines 80--83
+Overfull \hbox (65.56761pt too wide) in paragraph at lines 81--84
 \OT1/cmss/bx/n/8 back=Framajaunelight!100!white,colframe=Framajaune!70!black,co
 lbacktitle=Framajaune!100!white, 
  []
 
 ! Undefined control sequence.
-l.84 \tcbset
+l.85 \tcbset
             {tabgris/.style={enhanced,arc=0em,fonttitle=\bfseries,fontupper=...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1082,20 +1094,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 \tcbset{t
+l.85 \tcbset{t
               abgris/.style={enhanced,arc=0em,fonttitle=\bfseries,fontupper=...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (45.28754pt too wide) in paragraph at lines 84--87
+Overfull \hbox (45.28754pt too wide) in paragraph at lines 85--88
 \OT1/cmss/bx/n/8 back=Framagrislight!100!white,colframe=Framagris!70!black,colb
 acktitle=Framagris!100!white, 
  []
 
 ! Undefined control sequence.
-l.88 \tcbset
+l.89 \tcbset
             {tabmarron/.style={enhanced,arc=0em,fonttitle=\bfseries,fontuppe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1110,14 +1122,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 \tcbset{t
+l.89 \tcbset{t
               abmarron/.style={enhanced,arc=0em,fonttitle=\bfseries,fontuppe...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (84.10109pt too wide) in paragraph at lines 88--91
+Overfull \hbox (84.10109pt too wide) in paragraph at lines 89--92
 \OT1/cmss/bx/n/8 back=Framamarronlight!100!white,colframe=Framamarron!70!black,
 colbacktitle=Framamarron!100!white, 
  []
@@ -1129,8 +1141,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 \usecolortheme[named=Framableu]{structure}
-                                               
+l.100 \usecolortheme[named=Framableu]{structure}
+                                                
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -1141,8 +1153,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 \usecolortheme[named=Framableu]{structure}
-                                               
+l.100 \usecolortheme[named=Framableu]{structure}
+                                                
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1153,7 +1165,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 \useinnertheme{rectangles}
+l.102 \useinnertheme{rectangles}
                                 
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -1165,7 +1177,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 \useinnertheme{rectangles}
+l.102 \useinnertheme{rectangles}
                                 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1177,7 +1189,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 \useoutertheme[subsection=false]{miniframes}
+l.103 \useoutertheme[subsection=false]{miniframes}
                                                   
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -1189,7 +1201,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 \useinnertheme{default}
+l.161 \useinnertheme{default}
                              
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -1201,13 +1213,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 \useinnertheme{default}
+l.161 \useinnertheme{default}
                              
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.162 \beamer
+l.163 \beamer
              @compresstrue
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1222,13 +1234,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 \usepackage{
+l.208 \usepackage{
                   etoolbox}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.208 \AtBeginEnvironment
+l.209 \AtBeginEnvironment
                          {exampleblock}{%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1243,13 +1255,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.208 \AtBeginEnvironment{e
+l.209 \AtBeginEnvironment{e
                            xampleblock}{%
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.211 \AtBeginEnvironment
+l.212 \AtBeginEnvironment
                          {alertblock}{%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1258,7 +1270,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.214 \AtBeginEnvironment
+l.215 \AtBeginEnvironment
                          {block}{%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1274,10 +1286,10 @@ and I'll forget about whatever was undefined.
 
  
 Here is how much of TeX's memory you used:
- 15070 strings out of 493089
- 280992 string characters out of 6134842
+ 15072 strings out of 493089
+ 281064 string characters out of 6134842
  367257 words of memory out of 5000000
- 18279 multiletter control sequences out of 15000+600000
+ 18281 multiletter control sequences out of 15000+600000
  4533 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,1n,45p,393b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
