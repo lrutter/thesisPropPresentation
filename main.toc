@@ -1,8 +1,8 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {french}
 \beamer@sectionintoc {1}{Introduction}{4}{0}{1}
-\beamer@sectionintoc {2}{Blocks}{6}{0}{2}
-\beamer@sectionintoc {3}{Boxes}{7}{0}{3}
-\beamer@sectionintoc {4}{Text}{8}{0}{4}
-\beamer@sectionintoc {5}{Tables}{9}{0}{5}
-\beamer@sectionintoc {6}{Images}{11}{0}{6}
+\beamer@sectionintoc {2}{Visualizing genealogy}{9}{0}{2}
+\beamer@sectionintoc {3}{Boxes}{11}{0}{3}
+\beamer@sectionintoc {4}{Text}{12}{0}{4}
+\beamer@sectionintoc {5}{Tables}{13}{0}{5}
+\beamer@sectionintoc {6}{Images}{15}{0}{6}
