@@ -56,6 +56,7 @@
 \usepackage{array}
 \usepackage{colortbl}
 \tcbuselibrary{skins}
+\usepackage{geometry}
 
 %\usepackage{enumitem}
 

@@ -2,7 +2,7 @@
 \select@language {french}
 \beamer@sectionintoc {1}{Introduction}{4}{0}{1}
 \beamer@sectionintoc {2}{Visualizing genealogy}{9}{0}{2}
-\beamer@sectionintoc {3}{Boxes}{11}{0}{3}
-\beamer@sectionintoc {4}{Text}{12}{0}{4}
-\beamer@sectionintoc {5}{Tables}{13}{0}{5}
-\beamer@sectionintoc {6}{Images}{15}{0}{6}
+\beamer@sectionintoc {3}{Boxes}{15}{0}{3}
+\beamer@sectionintoc {4}{Text}{16}{0}{4}
+\beamer@sectionintoc {5}{Tables}{17}{0}{5}
+\beamer@sectionintoc {6}{Images}{19}{0}{6}

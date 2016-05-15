@@ -8,6 +8,7 @@
 
 \setbeamertemplate{itemize/enumerate body begin}{\Large}
 \setbeamertemplate{itemize/enumerate subbody begin}{\large}
+\setbeamertemplate{itemize/enumerate subsubbody begin}{\large}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -130,6 +131,71 @@ datasets
 }
 \end{center}
 \end{frame}
+
+\begin{frame}{Genealogy}
+\begin{itemize}
+  \item Study of parent-child relationships
+  \item Provides tools to better understand traits that arise in lineages
+  \begin{itemize}
+    \item Desirable (disease resistance)
+    \item Undesirable (hemophilia)
+  \end{itemize}
+  \item Can be represented visually
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Current visual tools}
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.38]{kinshipFig.png}}
+\caption{\texttt{kinship2}: Ambiguous position of green node, who is both second and third generation}
+\end{figure}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.28]{Graph.png}}
+\caption{\texttt{Cytoscape} and \texttt{GraphViz}: Ambiguous position of green node, who is both second and third generation}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{ggenealogy}
+\begin{itemize}
+  \item \texttt{R} package to visualize genealogical structures
+  \item First example data is \textbf{soybean genealogy}
+  \begin{itemize}
+    \item Soybean variety data collected from
+      \begin{itemize}
+        \item Field trials
+        \item Genetic studies
+        \item USDA bulletins
+      \end{itemize}
+    \item Data frame of 412 rows (parent-child relations)
+    \item Each variety (n=230)
+      \begin{itemize}
+        \item Developmental years
+        \item Copy number variants (CNV)
+        \item Single nucleotide polymorphisms (SNPs)
+        \item Protein content and yield
+      \end{itemize}
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}  
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.55]{LeeAD3.png}}
+\caption{\texttt{ggenealogy}: Solution to ambiguous positions of nodes}
+\end{figure}
+\end{frame}
+
+
+
 
 
 
