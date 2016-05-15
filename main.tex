@@ -5,6 +5,7 @@
 \usefonttheme{serif} % default family is serif
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
+\usepackage[]{media9}
 
 \setbeamertemplate{itemize/enumerate body begin}{\Large}
 \setbeamertemplate{itemize/enumerate subbody begin}{\large}
@@ -270,11 +271,36 @@ Daniel Nettleton
 \end{columns}
 \end{frame}
 
+\begin{frame}{Superimpose path on full structure}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.45]{DR_All1.png}}
+\caption{The shortest path between Tokyo and Narow, superimposed over the data structure, using a bin size of 6.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Superimpose path on full structure}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.45]{DR_All2.png}}
+\caption{The shortest path between Tokyo and Narow, superimposed over the data structure, using a bin size of 6.}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{Movie}
+\begin{figure}
+    \centering
+    \includemedia[width=0.9\textwidth, addresource=DRMovie.mov, deactivate=onclick, flashvars={source=animateGen.mov}]{\includegraphics{./DR_All2.png}}{VPlayer.swf}
+    \caption{Animted version}
+\end{figure}
+\end{frame}
+
+
 
 
 
 \begin{frame}{Blocks}
-
 \begin{block}{Bloc simple}
 \begin{itemize}
 \item Premier point
