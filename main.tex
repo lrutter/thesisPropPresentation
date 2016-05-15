@@ -6,7 +6,6 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[]{media9}
-
 \setbeamertemplate{itemize/enumerate body begin}{\Large}
 \setbeamertemplate{itemize/enumerate subbody begin}{\large}
 \setbeamertemplate{itemize/enumerate subsubbody begin}{\large}
@@ -28,11 +27,6 @@
 
 \begin{frame}
   \titlepage
-\end{frame}
-
-\begin{frame}{Sommaire}
-  \tableofcontents
-  % possibilité d'ajouter l'option [pausesections]
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BACKGROUND %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -125,8 +119,8 @@
 \fcolorbox{black}{titleColor}{
 \begin{minipage}{\textwidth}
 \begin{center}
-\huge Visualization methods for genealogical \\
-datasets
+\huge \textbf{Chapter 2:} Visualization methods for\\
+genealogical datasets
 \end{center}
 \end{minipage}
 }
@@ -242,7 +236,7 @@ datasets
 \end{frame}
 
 \begin{frame}[fragile]
-\frametitle{Including Code}
+\frametitle{Plotting ancestors and descendants}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{semiverbatim}
@@ -275,7 +269,7 @@ Daniel Nettleton
 \begin{figure}
 \centering
 \fbox{\includegraphics[scale=0.45]{DR_All1.png}}
-\caption{The shortest path between Tokyo and Narow, superimposed over the data structure, using a bin size of 6.}
+\caption{The shortest path between advisor Dr. Nettleton and advisee Dr. DeCook across whole structure.}
 \end{figure}
 \end{frame}
 
@@ -283,173 +277,316 @@ Daniel Nettleton
 \begin{figure}
 \centering
 \fbox{\includegraphics[scale=0.45]{DR_All2.png}}
-\caption{The shortest path between Tokyo and Narow, superimposed over the data structure, using a bin size of 6.}
+\caption{The shortest path between advisor Dr. Nettleton and advisee Dr. DeCook across whole structure.}
 \end{figure}
 \end{frame}
 
-
-\begin{frame}{Movie}
+\begin{frame}{Animation of path on full structure}
 \begin{figure}
     \centering
-    \includemedia[width=0.9\textwidth, addresource=DRMovie.mov, deactivate=onclick, flashvars={source=animateGen.mov}]{\includegraphics{./DR_All2.png}}{VPlayer.swf}
-    \caption{Animted version}
+    \fbox{\includemedia[width=0.9\textwidth, addresource=DRMovie.mov, deactivate=onclick, flashvars={source=DRMovie.mov}]{\includegraphics{./DR_All2.png}}{VPlayer.swf}}
 \end{figure}
 \end{frame}
 
-
-
-
-
-\begin{frame}{Blocks}
-\begin{block}{Bloc simple}
+\begin{frame}{Future directions}
 \begin{itemize}
-\item Premier point
-\item Second point
-\item Troisième point
+\item Expand on variable types
+\item Enhance interactive capabilities
+\item Futher eliminate text overlap
 \end{itemize}
-\end{block}
+\end{frame}
 
-\begin{exampleblock}{Bloc exemple}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CLUSTERS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Visualizing RNA-seq clusters}
+
+\begin{frame}
+\begin{center}
+\fcolorbox{black}{titleColor}{
+\begin{minipage}{\textwidth}
+\begin{center}
+\huge \textbf{Chapter 3:} Visualization methods for \\
+clustering analysis of RNA-sequencing data
+\end{center}
+\end{minipage}
+}
+\end{center}
+\end{frame}
+
+\begin{frame}{Background of Dataset}
 \begin{itemize}
-\item Premier point
-\item Second point
-\item Troisième point
+  \item Iron is an essential micronutrient in plants, needed for photosynthesis, metabolism, and respiration
+  \item Iron homeostasis is tightly controlled in plants
+  \begin{itemize}
+    \item Lack of iron leads to iron deficiency chlorosis (IDC)
+    \begin{itemize}
+      \item Reduction in photosynthesis
+      \item Severe nutritional stress
+      \item Yield loss
+    \end{itemize}
+    \item Surplus of iron leads to cellular damage
+  \end{itemize}
+  \item Plants take up bioavailable iron from soil
+  \item IDC is global problem
 \end{itemize}
-\end{exampleblock}
+\end{frame}
 
-\begin{alertblock}{Bloc alert}
+\begin{frame}{Background of Dataset}
 \begin{itemize}
-\item Premier point
-\item Second point
-\item Troisième point
+  \item IDC-resistant soybean lines yield lower than susceptible lines in iron-sufficient conditions
+  \item Development of IDC-resistant lines with high yield in multiple soil types is ideal
+  \item Requires better understanding of genetic basis of iron metabolism in plants
 \end{itemize}
-\end{alertblock}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Boxes}
-
-\begin{frame}{Boxes}
-
-\begin{columns}
-
-\begin{column}{0.5\textwidth}
-\boitejaune{
-Ceci est \\
-une boite jaune
-}
-
-\boiteorange{
-Ceci est \\
-une boite orange
-}
-
-\boitemarron{
-Ceci est \\
-une boite marron
-}
-\end{column}
-
-\begin{column}{0.5\textwidth}
-\boiteviolette{
-Ceci est \\
-une boite violette
-}
-
-\boitebleue{
-Ceci est \\
-une boite bleue
-}
-
-\boitegrise{
-Ceci est \\
-une boite grise
-}
-
-\end{column}
-
-\end{columns}
-
-
+\begin{frame}{Example Dataset}
+\begin{itemize}
+  \item Count table for 56,044 genes in 18 samples of soybean leaves
+  \begin{itemize}
+    \item 30 minutes after iron-rich soil (3 replicates)
+    \item 60 minutes after iron-rich soil (3 replicates)
+    \item 120 minutes after iron-rich soil (3 replicates)
+    \item 30 minutes after iron-deficient soil (3 replicates)
+    \item 60 minutes after iron-deficient soil (3 replicates)
+    \item 120 minutes after iron-deficient soil (3 replicates)
+  \end{itemize}
+  \item Count table for 56,044 genes in 18 samples of soybean roots
+    \begin{itemize}
+    \item 30 minutes after iron-rich soil (3 replicates)
+    \item 60 minutes after iron-rich soil (3 replicates)
+    \item 120 minutes after iron-rich soil (3 replicates)
+    \item 30 minutes after iron-deficient soil (3 replicates)
+    \item 60 minutes after iron-deficient soil (3 replicates)
+    \item 120 minutes after iron-deficient soil (3 replicates)
+  \end{itemize}
+\end{itemize}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Text}
-
-\begin{frame}{Titre de la frame} 
-
-Voici du texte normal
-
-\alert{Voici du texte \texttt{alert}}
-
-\exemple{Voici du texte \texttt{exemple}}
-
-\emph{Voici du texte \texttt{emphase}}
-
+\begin{frame}{Motivation}
+\begin{itemize}
+  \item Cluster genes that show similar changes in read counts across iron condition, time point, and or biological derivative (roots or leaves)
+  \item This approach could help us identify what genes are responsible for when and where soybeans respond to iron deficient conditions
+  \item Clustering analysis has been applied to plant breeding purposes in previous studies (Newell et al. 2013), although not on RNA-sequencing data
+\end{itemize}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 6 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Tables}
-
-\begin{frame}{Tables}
-
-% merci: http://tex.stackexchange.com/questions/112343/beautiful-table-samples
-
-\begin{tcolorbox}[tabjaune,tabularx={X||Y|Y|Y|Y||Y}, boxrule=0.5pt]
-Couleur & Prix 1  & Prix 2  & Prix 3   & Prix 4   & Prix 5 \\\hline\hline
-Rouge   & 10.00   & 20.00   &  30.00   &  40.00   & 100.00 \\\hline
-Vert    & 20.00   & 30.00   &  40.00   &  50.00   & 140.00 \\\hline
-Bleu    & 30.00   & 40.00   &  50.00   &  60.00   & 180.00 \\\hline\hline
-Orange  & 60.00   & 90.00   & 120.00   & 150.00   & 420.00
-\end{tcolorbox}
-
-\begin{tcolorbox}[tabvert,tabularx={X||Y|Y|Y|Y||Y}, boxrule=0.5pt, title=Mon tableau des prix]
-Couleur & Prix 1  & Prix 2  & Prix 3   & Prix 4   & Prix 5 \\\hline\hline
-Rouge   & 10.00   & 20.00   &  30.00   &  40.00   & 100.00 \\\hline
-Vert    & 20.00   & 30.00   &  40.00   &  50.00   & 140.00 \\\hline
-Bleu    & 30.00   & 40.00   &  50.00   &  60.00   & 180.00 \\\hline\hline
-Orange  & 60.00   & 90.00   & 120.00   & 150.00   & 420.00
-\end{tcolorbox}
-
-\end{frame}
-
-
-\begin{frame}{Tables}
-
-% merci: http://tex.stackexchange.com/questions/112343/beautiful-table-samples
-
-\begin{tcolorbox}[tabgris,tabularx={X||Y|Y|Y|Y||Y}, boxrule=0.5pt]
-Couleur & Prix 1  & Prix 2  & Prix 3   & Prix 4   & Prix 5 \\\hline\hline
-Rouge   & 10.00   & 20.00   &  30.00   &  40.00   & 100.00 \\\hline
-Vert    & 20.00   & 30.00   &  40.00   &  50.00   & 140.00 \\\hline
-Bleu    & 30.00   & 40.00   &  50.00   &  60.00   & 180.00 \\\hline\hline
-Orange  & 60.00   & 90.00   & 120.00   & 150.00   & 420.00
-\end{tcolorbox}
-
-\begin{tcolorbox}[taborange,tabularx={X||Y|Y|Y|Y||Y}, boxrule=0.5pt, title=Mon tableau des prix]
-Couleur & Prix 1  & Prix 2  & Prix 3   & Prix 4   & Prix 5 \\\hline\hline
-Rouge   & 10.00   & 20.00   &  30.00   &  40.00   & 100.00 \\\hline
-Vert    & 20.00   & 30.00   &  40.00   &  50.00   & 140.00 \\\hline
-Bleu    & 30.00   & 40.00   &  50.00   &  60.00   & 180.00 \\\hline\hline
-Orange  & 60.00   & 90.00   & 120.00   & 150.00   & 420.00
-\end{tcolorbox}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% section 7 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Images}
-
-\begin{frame}{Titre de la frame} 
-
+\begin{frame}{Pre-processing}
 \begin{figure}
 \centering
-\includegraphics[scale=0.5]{images/architecturebretonne_wikipedia.jpg}
-\caption{Éléments d'architecture bretonne typique du Sud de la France.
-(\href{http://commons.wikimedia.org/wiki/File:Colmar_-_Alsace.jpg}{Wikipédia.fr} CC-By-Sa)}
+\fbox{\includegraphics[scale=0.4]{needNorm.png}}
 \end{figure}
 \end{frame}
 
+\begin{frame}{Pre-processing}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.47]{mdsGroups.png}}
+\end{figure}
+\end{frame}
 
+\begin{frame}{Leaves at 120 minutes}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.47]{L120scatter.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Leaves at 120 minutes}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.45]{dendL120.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Leaves at 120 minutes - 2 Clusters}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.34]{pcp2L120.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Leaves at 120 minutes - 2 Clusters}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.36]{scatterL120.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Leaves at 120 minutes - 3 Clusters}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.32]{pcp3L120.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Leaves at 120 minutes - 3 Clusters}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.38]{3scatterL120.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Leaves at 120 minutes - 3 Clusters}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.65]{indSBGenes2.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Leaves at 120 minutes - Many Clusters}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.43]{L120_15.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Leaves at 120 minutes - Many Clusters}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.42]{L120_15_5.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Leaves at 120 minutes - Many Clusters}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.42]{L120_15_6.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Future directions}
+\begin{itemize}
+\item Render the parallel coordinate plots interactive
+\item Adapt parallel coordinate plots to large datasets
+\item Develop guidelines for scatterplot matrices
+\item Adapt scatterplot matrices to large datasets
+\item Render the individual gene plots interactive
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DEGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Visualizing RNA-seq DEGS}
+
+\begin{frame}
+\begin{center}
+\fcolorbox{black}{titleColor}{
+\begin{minipage}{\textwidth}
+\begin{center}
+\huge \textbf{Chapter 4:} Visualization methods for \\
+significance testing of RNA-sequencing data
+\end{center}
+\end{minipage}
+}
+\end{center}
+\end{frame}
+
+\begin{frame}{Background of Dataset}
+\begin{itemize}
+  \item Phenotypic plasticity is an adaptive tool where one genotype has the ability to produce more than one phenotype when exposed to different biotic and abiotic environment
+  \item In Genus \textit{Polistes}, larvae produced early in the colony season (reared by queens) tend to be caste as workers, whereas larvae produced later in the colony season (reared by workers) tend to be caste as queens
+  \item Two factors (nutritional and antennal drumming) may be the most likely explanatory variables for the casting fate of \textit{Polistes} offspring
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Example Dataset}
+\begin{itemize}
+  \item RNA-sequencing count tables for 30 samples of \textit{Polistes fuscatus} larvae
+  \item Two factors (nutrition and AD) were manipulated to create five treatment groups, each with six samples
+  \begin{itemize}
+    \item Foundress-Reared ("F") or Worker-Destined
+    \item Worker-Reared ("DR", "DU", "NR", "NU") or Queen-Destined
+  \end{itemize}
+\end{itemize}
+\begin{figure}
+\centering
+\includegraphics[scale=0.59]{groups.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Pre-processing}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.34]{boxplotPW.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Pre-processing}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.38]{mdsPW.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Pre-processing}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.3]{scatMatPW.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Differentially expressed transcripts}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.42]{degPW.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Future directions}
+\begin{itemize}
+  \item Strengthen normalization
+  \begin{itemize}
+    \item Housekeeping transcripts
+    \item Internal control transcripts
+    \item Spike-in controls
+  \end{itemize}
+  \item Map to genome
+  \item Permutation testing
+  \item Render plotting interactive
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TIMELINE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Timeline}
+
+\begin{frame}{Completed work}
+\begin{tabular}{|p{1.5cm}|p{5.5cm}|p{1.8cm}|}
+ \hline
+ \textbf{Product} & \textbf{Description} & \textbf{Date} \\ 
+ \hline
+ R package & First release of \texttt{ggenealogy}, which provides visualization tools for genealogical datasets & March 2015 \\
+ \hline
+ Presentation & Presented \texttt{ggenealogy} at JSM & August 2015 \\
+ \hline
+ Award & Student paper award at ASA Statistical Computing and Graphics Section & August 2015 \\
+ \hline
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Scheduled deliverables}
+\begin{tabular}{|p{1.5cm}|p{5.5cm}|p{1.8cm}|}
+ \hline
+ \textbf{Product} & \textbf{Description} & \textbf{Date} \\ 
+ \hline
+ R package & Second release of \texttt{ggenealogy} package, which provides visualization tools for genealogical datasets & May 2016 \\
+ \hline
+ Paper & Submit \texttt{ggenealogy} paper to JSS & May 2016 \\
+ \hline
+ R package & First release of package that provides visualization tools for RNA-sequencing datasets & TBD \\
+ \hline
+ Paper & Submit paper about visualization tools for clustering analysis of RNA-sequencing & TBD \\
+ \hline
+ Paper & Submit paper about visualization tools for significance testing of RNA-sequencing & TBD \\
+ \hline
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Other work}
+\begin{tabular}{|p{1.5cm}|p{5.5cm}|p{1.8cm}|}
+ \hline
+ \textbf{Product} & \textbf{Description} & \textbf{Date} \\ 
+ \hline
+ R package & First release of ePort package that generates electronic reports for instructors to evaluate student performance & July 2016 \\
+ \hline
+\end{tabular}
+\end{frame}
 
 \end{document}
-

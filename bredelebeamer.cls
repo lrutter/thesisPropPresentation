@@ -285,5 +285,3 @@ coltitle=white,center title}}
 }
 \end{center}
 }
-
-

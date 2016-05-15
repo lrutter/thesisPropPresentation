@@ -1,8 +1,7 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {french}
-\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
-\beamer@sectionintoc {2}{Visualizing genealogy}{9}{0}{2}
-\beamer@sectionintoc {3}{Boxes}{23}{0}{3}
-\beamer@sectionintoc {4}{Text}{24}{0}{4}
-\beamer@sectionintoc {5}{Tables}{25}{0}{5}
-\beamer@sectionintoc {6}{Images}{27}{0}{6}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Visualizing genealogy}{8}{0}{2}
+\beamer@sectionintoc {3}{Visualizing RNA-seq clusters}{22}{0}{3}
+\beamer@sectionintoc {4}{Visualizing RNA-seq DEGS}{40}{0}{4}
+\beamer@sectionintoc {5}{Timeline}{48}{0}{5}
