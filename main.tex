@@ -165,8 +165,8 @@ datasets
 
 \begin{frame}{ggenealogy}
 \begin{itemize}
-  \item \texttt{R} package to visualize genealogical structures
-  \item First example data is \textbf{soybean genealogy}
+  \item \textbf{ggenealogy:}\texttt{R} package to visualize genealogical structures
+  \item First example data is soybean genealogy
   \begin{itemize}
     \item Soybean variety data collected from
       \begin{itemize}
@@ -194,9 +194,81 @@ datasets
 \end{figure}
 \end{frame}
 
+\begin{frame}{Plot shortest path}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.45]{pathTNZB.png}}
+\caption{\textbf{Left:} The shortest path between Tokyo and Narow is composed of a sequence of parent-child relationships. \textbf{Right:} The shortest path between Zane and Bedford instead have a cousin-like relationship.}
+\end{figure}
+\end{frame}
 
+\begin{frame}{Superimpose path on full structure}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.45]{plotTNBin3.png}}
+\caption{The shortest path between Tokyo and Narow, superimposed over the data structure, using a bin size of 3.}
+\end{figure}
+\end{frame}
 
+\begin{frame}{Superimpose path on full structure}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.45]{plotTNBin6.png}}
+\caption{The shortest path between Tokyo and Narow, superimposed over the data structure, using a bin size of 6.}
+\end{figure}
+\end{frame}
 
+\begin{frame}{ggenealogy}
+\begin{itemize}
+  \item Second example data is genealogy of academic statisticians
+  \begin{itemize}
+    \item Math Genealogy Project
+      \begin{itemize}
+        \item Web database of genealogy of academic mathematicians
+        \item North Dakota State University Department of Mathematics and the American Mathematical Society
+        \item Queried for people with advanced degree in "Statistics" with parent with advanced degree in "Statistics"
+      \end{itemize}
+    \item Data frame of 8165 rows (3291 parent-child relations)
+    \item Each individual (n=7122)
+      \begin{itemize}
+        \item Year of degree acquisition
+        \item Country of degree acquisition
+        \item School of degree acquisition
+        \item Thesis title
+      \end{itemize}
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Including Code}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{semiverbatim}
+> statUI <- statGeneal[which(statGeneal
+$school=="University of Iowa"),]$child
+> length(statUI)
+[1] 54
+> numDUI <- sapply(statUI, dFunc)
+> table(numDUI)
+numDUI
+ 0  1  7 25 
+48  4  1  1 
+> which(numDUI==25)
+Edward Wegman
+> which(numDUI==7)
+Daniel Nettleton
+\end{semiverbatim}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.5]{dNett.png}}
+\caption{Seven "descendents" of Dr. Nettleton.}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
 
 
 
