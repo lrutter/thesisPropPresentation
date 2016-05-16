@@ -10,6 +10,11 @@
 \setbeamertemplate{itemize/enumerate subbody begin}{\large}
 \setbeamertemplate{itemize/enumerate subsubbody begin}{\large}
 
+\setbeamertemplate{enumerate item}{%
+  \usebeamercolor[bg]{item projected}%
+  \raisebox{1.5pt}{\colorbox{bg}{\color{fg}\footnotesize\insertenumlabel}}%
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \title[Ph.D. Thesis Proposal]{\huge Visualization methods for genealogical and RNA-sequencing datasets}
@@ -44,7 +49,7 @@
 		\item Internships
 		\begin{itemize}
 		  \item Okinawa Institute of Science and Technology (Summer 2014)
-		  \item MathWorks (Summer 2016)
+		  \item MathWorks (Pending - Summer 2016)
 		\end{itemize}
 	\end{itemize}
 \end{frame}
@@ -52,59 +57,75 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \section{Introduction}
 
-\begin{frame}{Motivation}
+\begin{frame}{Motivation - Visualizing genealogy}
   \begin{itemize}
-		\item Use visualization to explore data, check data quality, assess model diagnostics, and compare results across methods
-		\item Problem: Limited choice of plots
-		\begin{itemize}
-		  \item Solution: Develop new plots
-		\end{itemize}
-		\item Problem: Large datasets
-		\begin{itemize}
-		  \item Solution: Improve computational expense
-		  \item Solution: Repair overplotting issues
-		  \item Solution: Enhance pattern detection methods
-		  \item Solution: Incorporate interactive graphics
-		\end{itemize}
+		\item Agronomists at ISU wished to view soybean lineages on the fly
+		\item Wanted to display paths between ancestors and descendants constrained by generation for a given variety
+		\item Standard pedigree charts were not sufficient for certain genealogical lineages (especially ones related to agricultural breeding)
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Previous research}
-  \begin{itemize}
-    \item \textbf{Static visualization software:} \texttt{ggplot2} (Wickham 2009), \texttt{GGally} (Schloerke et al. 2016), \texttt{nullabor} (Wickham et al. 2014), \texttt{ggbio} (Yin et al. 2012)
-    \item \textbf{Interactive visualization software:} \texttt{GGobi} (Swayne et al. 2003), \texttt{tourr} (Wickham et al. 2011), \texttt{plotly} (Sievert et al. 2016)
-    \item \textbf{General visualization:} Parallel coordinate plots (Inselberg 1985, Wegman 1990), Visual statistical inference (Chowdhury et al. 2015)
-	\end{itemize}
+\begin{frame}{Motivation - Visualizing gene expression}
+Cook D, Hofmann H, Lee E-K, Yang H, Nikolau B, Wurtele E. Exploring Gene Expression Data, Using Plots. \textit{Journal of Data Science} 5(2007), 151-182.
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.15]{theTable.png}}
+\end{figure}
+\begin{itemize}
+  \item Mutant organism is defective at synthesizing essential cofactor, which is provided by the treatment
+  \item Experiment used 8 Affymetrix GeneChip Arabidopsis Genome Array chips
+  \item Each chip has 8297 genes
+\end{itemize}
 \end{frame}
 
-\begin{frame}{Previous research}
-  \begin{itemize}
-    \item \textbf{Genealogical visualization:} \texttt{pedigree} (Coster 2013), \texttt{kinship2} (Therneau et al. 2015), \texttt{GraphViz} (Gansner and North 2000), \texttt{Cytoscape} (Shannon et al. 2003)
-    \item \textbf{Gene expression visualization:} \texttt{explorase} (Lawrence et al. 2008), \texttt{limma} (Ritchie et al. 2015), \texttt{edgeR} (Robinson et al. 2010), \texttt{DESeq2} (Love at al. 2014), \texttt{RUVseq} (Risso et al. 2014)
-    \item \textbf{Gene expression visual inference:} (Yin et al. 2013)
-    \item \textbf{Biological clustering:} (Newell et al. 2013)
-	\end{itemize}
+\begin{frame}
+\begin{figure}
+\centering
+\includegraphics[scale=0.46]{linkPlot.png}
+\end{figure}
 \end{frame}
 
-\begin{frame}{Problems}
-  \begin{itemize}
-    \item Standard genealogical plots can be ambiguous
-    \item Popular RNA-seq visualization tools are misleading
-    \item Time and space constraints in large RNA-seq data
-	\end{itemize}
+\begin{frame}{Motivation - Visualizing gene expression}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.75]{anova.png}}
+\end{figure}
+\begin{itemize}
+  \item Only one gene selected from plots had a low p-value
+  \item ANOVA scaled each gene separately, instead of globally
+  \item Gene expression analysis best studied using visualizations and models 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+\centering
+\includegraphics[scale=0.47]{varPlots.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Motivation - Visualizing gene expression}
+\Large{Strive to improve upon five plotting types for RNA-sequencing data:}
+\begin{enumerate}
+  \item Parallel coordinate plots
+  \item Pairwise scatterplots
+  \item Replicate line plots
+  \item Single gene plots
+  \item Permutation testing plots
+\end{enumerate}
 \end{frame}
 
 \begin{frame}{Thesis proposal overview}
   \begin{itemize}
-    \item (Chapter 2) Visualizing genealogical data
+    \item \textbf{Chapter 2}: Visualizing genealogical data
       \begin{itemize}
         \item Goal: Create unambiguous genealogy visualization plots, adapt genealogical plots for large datasets, incorporate interactive genealogical plots 
       \end{itemize}
-    \item (Chapter 3) Visualizing clustering analysis of RNA-seq data
+    \item \textbf{Chapter 3}: Visualizing cluster analysis of RNA-seq data
       \begin{itemize}
         \item Goal: Develop tools to visualize and interact with gene clusterings to determine genes of interest
       \end{itemize}
-    \item (Chapter 4) Visualizing significance tests of RNA-seq data
+    \item \textbf{Chapter 4}: Visualizing significance tests of RNA-seq data
       \begin{itemize}
         \item Goal: Develop tools to visualize, interact with, and permute differentially expressed genes from significance testing
       \end{itemize}
@@ -160,7 +181,7 @@ genealogical datasets
 
 \begin{frame}{ggenealogy}
 \begin{itemize}
-  \item \textbf{ggenealogy:}\texttt{R} package to visualize genealogical structures
+  \item \textbf{ggenealogy}: \texttt{R} package to visualize genealogical structures
   \item First example data is soybean genealogy
   \begin{itemize}
     \item Soybean variety data collected from
@@ -184,16 +205,14 @@ genealogical datasets
 \begin{frame}  
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.55]{LeeAD3.png}}
-\caption{\texttt{ggenealogy}: Solution to ambiguous positions of nodes}
+\fbox{\includegraphics[scale=0.59]{LeeAD3.png}}
 \end{figure}
 \end{frame}
 
 \begin{frame}{Plot shortest path}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.45]{pathTNZB.png}}
-\caption{\textbf{Left:} The shortest path between Tokyo and Narow is composed of a sequence of parent-child relationships. \textbf{Right:} The shortest path between Zane and Bedford instead have a cousin-like relationship.}
+\fbox{\includegraphics[scale=0.5]{pathTNZB.png}}
 \end{figure}
 \end{frame}
 
@@ -201,7 +220,6 @@ genealogical datasets
 \begin{figure}
 \centering
 \fbox{\includegraphics[scale=0.45]{plotTNBin3.png}}
-\caption{The shortest path between Tokyo and Narow, superimposed over the data structure, using a bin size of 3.}
 \end{figure}
 \end{frame}
 
@@ -209,7 +227,6 @@ genealogical datasets
 \begin{figure}
 \centering
 \fbox{\includegraphics[scale=0.45]{plotTNBin6.png}}
-\caption{The shortest path between Tokyo and Narow, superimposed over the data structure, using a bin size of 6.}
 \end{figure}
 \end{frame}
 
@@ -259,7 +276,6 @@ Daniel Nettleton
 \begin{figure}
 \centering
 \fbox{\includegraphics[scale=0.5]{dNett.png}}
-\caption{Seven "descendents" of Dr. Nettleton.}
 \end{figure}
 \end{column}
 \end{columns}
@@ -268,16 +284,14 @@ Daniel Nettleton
 \begin{frame}{Superimpose path on full structure}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.45]{DR_All1.png}}
-\caption{The shortest path between advisor Dr. Nettleton and advisee Dr. DeCook across whole structure.}
+\fbox{\includegraphics[scale=0.5]{DR_All1.png}}
 \end{figure}
 \end{frame}
 
 \begin{frame}{Superimpose path on full structure}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.45]{DR_All2.png}}
-\caption{The shortest path between advisor Dr. Nettleton and advisee Dr. DeCook across whole structure.}
+\fbox{\includegraphics[scale=0.5]{DR_All2.png}}
 \end{figure}
 \end{frame}
 
@@ -293,6 +307,7 @@ Daniel Nettleton
 \item Expand on variable types
 \item Enhance interactive capabilities
 \item Futher eliminate text overlap
+\item Test on larger genealogical datasets
 \end{itemize}
 \end{frame}
 
@@ -338,7 +353,7 @@ clustering analysis of RNA-sequencing data
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Example Dataset}
+\begin{frame}{Example Dataset (Adrienne Moran Lauter and Michelle Graham)}
 \begin{itemize}
   \item Count table for 56,044 genes in 18 samples of soybean leaves
   \begin{itemize}
@@ -425,12 +440,6 @@ clustering analysis of RNA-sequencing data
 \end{figure}
 \end{frame}
 
-\begin{frame}{Leaves at 120 minutes - 3 Clusters}
-\begin{figure}
-\centering
-\fbox{\includegraphics[scale=0.65]{indSBGenes2.png}}
-\end{figure}
-\end{frame}
 
 \begin{frame}{Leaves at 120 minutes - Many Clusters}
 \begin{figure}
@@ -487,7 +496,7 @@ significance testing of RNA-sequencing data
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Example Dataset}
+\begin{frame}{Example Dataset (Jennifer Jandt, Ali Berens, Amy Toth)}
 \begin{itemize}
   \item RNA-sequencing count tables for 30 samples of \textit{Polistes fuscatus} larvae
   \item Two factors (nutrition and AD) were manipulated to create five treatment groups, each with six samples
@@ -589,4 +598,40 @@ significance testing of RNA-sequencing data
 \end{tabular}
 \end{frame}
 
+\begin{frame}{References}
+  \begin{itemize}
+    \item \texttt{ggplot2} (Wickham 2009)
+    \item \texttt{GGally} (Schloerke et al. 2016)
+    \item \texttt{nullabor} (Wickham et al. 2014)
+    \item \texttt{ggbio} (Yin et al. 2012)
+    \item \texttt{GGobi} (Swayne et al. 2003)
+    \item \texttt{tourr} (Wickham et al. 2011)
+    \item \texttt{plotly} (Sievert et al. 2016)
+    \item Parallel coordinate plots (Inselberg 1985, Wegman 1990)
+    \item Visual statistical inference (Chowdhury et al. 2015)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{References}
+  \begin{itemize}
+    \item \texttt{pedigree} (Coster 2013)
+    \item \texttt{kinship2} (Therneau et al. 2015)
+    \item \texttt{GraphViz} (Gansner and North 2000)
+    \item \texttt{Cytoscape} (Shannon et al. 2003)
+    \item \texttt{explorase} (Lawrence et al. 2008)
+    \item \texttt{edgeR} (Robinson et al. 2010)
+    \item \texttt{DESeq2} (Love at al. 2014)
+    \item \texttt{RUVseq} (Risso et al. 2014)
+    \item Gene expression visual inference (Yin et al. 2013)
+    \item Biological clustering: (Newell et al. 2013)
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EXTRA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Leaves at 120 minutes - 3 Clusters}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.65]{indSBGenes2.png}}
+\end{figure}
+\end{frame}
 \end{document}

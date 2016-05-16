@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 MAY 2016 18:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1480,54 +1480,54 @@ Package: media9 2015/05/11 v0.52 acrobat-9/X compatible media
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 17.
+(hyperref)                removing `\\' on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 17.
+(hyperref)                removing `\\' on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 17.
+(hyperref)                removing `\new@ifnextchar' on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 17.
+(hyperref)                removing `\\' on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 17.
+(hyperref)                removing `\\' on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 17.
+(hyperref)                removing `\\' on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 17.
+(hyperref)                removing `\\' on input line 22.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 17.
+(hyperref)                removing `\\' on input line 22.
 
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 31.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1595,7 +1595,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box87
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 31.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1605,9 +1605,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count296
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (./main.out) (./main.out)
 \@outlinefile=\write7
@@ -1638,10 +1638,10 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 26.
-LaTeX Info: Redefining \degres on input line 26.
-LaTeX Info: Redefining \dots on input line 26.
-LaTeX Info: Redefining \up on input line 26.
+LaTeX Info: Redefining \includegraphics on input line 31.
+LaTeX Info: Redefining \degres on input line 31.
+LaTeX Info: Redefining \dots on input line 31.
+LaTeX Info: Redefining \up on input line 31.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Incompatible package detected (regarding \caption).
 (caption)             \caption = macro:->\ifx \@captype \@undefined \@latex@err
@@ -1657,7 +1657,7 @@ See the caption package documentation for explanation.
 
 Package caption Info: End \AtBeginDocument code.
 (./main.nav)
-Overfull \hbox (2.35556pt too wide) in paragraph at lines 26--26
+Overfull \hbox (2.35556pt too wide) in paragraph at lines 31--31
 [][]  
  []
 
@@ -1682,83 +1682,62 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [3
 
-]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 78.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+] <theTable.png, id=85, 1002.74625pt x 309.155pt>
+File: theTable.png Graphic file (type png)
+ <use theTable.png>
+Package pdftex.def Info: theTable.png used on input line 79.
+(pdftex.def)             Requested size: 150.40544pt x 46.37125pt.
+
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
 [4
 
-]
+ <./theTable.png>] <linkPlot.png, id=98, 421.575pt x 516.93124pt>
+File: linkPlot.png Graphic file (type png)
+
+<use linkPlot.png>
+Package pdftex.def Info: linkPlot.png used on input line 86.
+(pdftex.def)             Requested size: 193.92685pt x 237.79126pt.
+
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
 [5
 
-]
+ <./linkPlot.png>] <anova.png, id=110, 266.9975pt x 145.54375pt>
+File: anova.png Graphic file (type png)
+
+<use anova.png>
+Package pdftex.def Info: anova.png used on input line 98.
+(pdftex.def)             Requested size: 200.24762pt x 109.15753pt.
+
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
 [6
 
-]
+ <./anova.png>] <varPlots.png, id=122, 528.5346pt x 531.9072pt>
+File: varPlots.png Graphic file (type png)
+
+<use varPlots.png>
+Package pdftex.def Info: varPlots.png used on input line 105.
+(pdftex.def)             Requested size: 248.4113pt x 249.99641pt.
+
+Overfull \vbox (8.202pt too high) detected at line 105
+ []
+
+
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
 [7
 
-]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 128.
-
- (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 128.
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 128
-.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 128
-.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 128.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 128.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 128.
-LaTeX Font Info:    Try loading font information for U+msa on input line 128.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 128.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (12.46674pt too wide) in paragraph at lines 128--128
- [][][] 
- []
-
-
+ <./varPlots.png>]
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
@@ -1772,17 +1751,50 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [9
 
-] <kinshipFig.png, id=155, 452.892pt x 360.3864pt>
-File: kinshipFig.png Graphic file (type png)
- <use kinshipFig.png>
-Package pdftex.def Info: kinshipFig.png used on input line 159.
-(pdftex.def)             Requested size: 172.10074pt x 136.94824pt.
+]
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 149.
 
-<Graph.png, id=157, 520.8258pt x 337.26pt>
-File: Graph.png Graphic file (type png)
- <use Graph.png>
-Package pdftex.def Info: Graph.png used on input line 159.
-(pdftex.def)             Requested size: 145.83023pt x 94.43214pt.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 149.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 149
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 149
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 149.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 149.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 149.
+LaTeX Font Info:    Try loading font information for U+msa on input line 149.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 149.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (12.46674pt too wide) in paragraph at lines 149--149
+ [][][] 
+ []
+
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -1790,18 +1802,29 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [10
 
- <./kinshipFig.png> <./Graph.png>]
+]
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
 [11
 
-] <LeeAD3.png, id=184, 536.2434pt x 381.1038pt>
-File: LeeAD3.png Graphic file (type png)
- <use LeeAD3.png>
-Package pdftex.def Info: LeeAD3.png used on input line 190.
-(pdftex.def)             Requested size: 294.93477pt x 209.60773pt.
+] <kinshipFig.png, id=184, 452.892pt x 360.3864pt>
+File: kinshipFig.png Graphic file (type png)
+ <use kinshipFig.png>
+Package pdftex.def Info: kinshipFig.png used on input line 180.
+(pdftex.def)             Requested size: 172.10074pt x 136.94824pt.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 180.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<Graph.png, id=185, 520.8258pt x 337.26pt>
+File: Graph.png Graphic file (type png)
+ <use Graph.png>
+Package pdftex.def Info: Graph.png used on input line 180.
+(pdftex.def)             Requested size: 145.83023pt x 94.43214pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -1809,36 +1832,21 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [12
 
- <./LeeAD3.png>] <pathTNZB.png, id=197, 636.9396pt x 398.9304pt>
-File: pathTNZB.png Graphic file (type png)
-
-<use pathTNZB.png>
-Package pdftex.def Info: pathTNZB.png used on input line 198.
-(pdftex.def)             Requested size: 286.62018pt x 179.51701pt.
-
-Overfull \vbox (7.145pt too high) detected at line 198
- []
-
-
+ <./kinshipFig.png> <./Graph.png>]
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
 [13
 
- <./pathTNZB.png>] <plotTNBin3.png, id=212, 693.59125pt x 405.515pt>
-File: plotTNBin3.png Graphic file (type png)
+] <LeeAD3.png, id=214, 536.2434pt x 381.1038pt>
+File: LeeAD3.png Graphic file (type png)
+ <use LeeAD3.png>
+Package pdftex.def Info: LeeAD3.png used on input line 210.
+(pdftex.def)             Requested size: 316.38086pt x 224.84929pt.
 
-<use plotTNBin3.png>
-Package pdftex.def Info: plotTNBin3.png used on input line 206.
-(pdftex.def)             Requested size: 312.11317pt x 182.48006pt.
-
-Overfull \hbox (11.62329pt too wide) in paragraph at lines 206--206
+Overfull \hbox (15.89098pt too wide) in paragraph at lines 210--210
  [] 
- []
-
-
-Overfull \vbox (11.53671pt too high) detected at line 206
  []
 
 
@@ -1848,19 +1856,15 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [14
 
- <./plotTNBin3.png>] <plotTNBin6.png, id=225, 693.59125pt x 405.515pt>
-File: plotTNBin6.png Graphic file (type png)
+ <./LeeAD3.png>] <pathTNZB.png, id=227, 636.9396pt x 398.9304pt>
+File: pathTNZB.png Graphic file (type png)
 
-<use plotTNBin6.png>
-Package pdftex.def Info: plotTNBin6.png used on input line 214.
-(pdftex.def)             Requested size: 312.11317pt x 182.48006pt.
+<use pathTNZB.png>
+Package pdftex.def Info: pathTNZB.png used on input line 217.
+(pdftex.def)             Requested size: 318.46902pt x 199.4647pt.
 
-Overfull \hbox (11.62329pt too wide) in paragraph at lines 214--214
+Overfull \hbox (17.97914pt too wide) in paragraph at lines 217--217
  [] 
- []
-
-
-Overfull \vbox (11.53671pt too high) detected at line 214
  []
 
 
@@ -1870,12 +1874,48 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [15
 
- <./plotTNBin6.png>]
+ <./pathTNZB.png>] <plotTNBin3.png, id=240, 693.59125pt x 405.515pt>
+File: plotTNBin3.png Graphic file (type png)
+
+<use plotTNBin3.png>
+Package pdftex.def Info: plotTNBin3.png used on input line 224.
+(pdftex.def)             Requested size: 312.11317pt x 182.48006pt.
+
+Overfull \hbox (11.62329pt too wide) in paragraph at lines 224--224
+ [] 
+ []
+
+
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
 [16
+
+ <./plotTNBin3.png>] <plotTNBin6.png, id=253, 693.59125pt x 405.515pt>
+File: plotTNBin6.png Graphic file (type png)
+
+<use plotTNBin6.png>
+Package pdftex.def Info: plotTNBin6.png used on input line 231.
+(pdftex.def)             Requested size: 312.11317pt x 182.48006pt.
+
+Overfull \hbox (11.62329pt too wide) in paragraph at lines 231--231
+ [] 
+ []
+
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[17
+
+ <./plotTNBin6.png>]
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[18
 
 ]
 \openout4 = `main.vrb'.
@@ -1890,7 +1930,7 @@ Overfull \hbox (7.85507pt too wide) in paragraph at lines 6--6
 []\T1/lmtt/m/n/8 $school=="University of Iowa"),]$child[] 
  []
 
-<dNett.png, id=249, 306.14375pt x 334.24875pt>
+<dNett.png, id=277, 306.14375pt x 334.24875pt>
 File: dNett.png Graphic file (type png)
  <use dNett.png>
 Package pdftex.def Info: dNett.png used on input line 23.
@@ -1905,39 +1945,44 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[17
+[19
 
- <./dNett.png>] <DR_All1.png, id=262, 602.25pt x 357.335pt>
+ <./dNett.png>] <DR_All1.png, id=292, 602.25pt x 357.335pt>
 File: DR_All1.png Graphic file (type png)
 
 <use DR_All1.png>
-Package pdftex.def Info: DR_All1.png used on input line 274.
-(pdftex.def)             Requested size: 271.01pt x 160.79926pt.
+Package pdftex.def Info: DR_All1.png used on input line 289.
+(pdftex.def)             Requested size: 301.12425pt x 178.66705pt.
+
+Overfull \hbox (0.63437pt too wide) in paragraph at lines 289--289
+ [] 
+ []
+
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[18
+[20
 
- <./DR_All1.png>] <DR_All2.png, id=275, 522.95375pt x 386.44376pt>
+ <./DR_All1.png>] <DR_All2.png, id=305, 522.95375pt x 386.44376pt>
 File: DR_All2.png Graphic file (type png)
 
 <use DR_All2.png>
-Package pdftex.def Info: DR_All2.png used on input line 282.
-(pdftex.def)             Requested size: 235.32701pt x 173.89807pt.
+Package pdftex.def Info: DR_All2.png used on input line 296.
+(pdftex.def)             Requested size: 261.47623pt x 193.2214pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[19
+[21
 
- <./DR_All2.png>] <./DR_All2.png, id=292, 522.95375pt x 386.44376pt>
+ <./DR_All2.png>] <./DR_All2.png, id=320, 522.95375pt x 386.44376pt>
 File: ./DR_All2.png Graphic file (type png)
 
 <use ./DR_All2.png>
-Package pdftex.def Info: ./DR_All2.png used on input line 289.
+Package pdftex.def Info: ./DR_All2.png used on input line 303.
 (pdftex.def)             Requested size: 522.95247pt x 386.44281pt.
 \g__file_internal_ior=\read3
 <<VPlayer.swf>><<DRMovie.mov>>
@@ -1945,28 +1990,9 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[20
-
- <./DR_All2.png>]
-Overfull \hbox (2.35556pt too wide) has occurred while \output is active
-[][] 
- []
-
-[21
-
-]
-Overfull \hbox (12.46674pt too wide) in paragraph at lines 313--313
- [][][] 
- []
-
-
-Overfull \hbox (2.35556pt too wide) has occurred while \output is active
-[][] 
- []
-
 [22
 
-]
+ <./DR_All2.png>]
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
@@ -1974,6 +2000,11 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [23
 
 ]
+Overfull \hbox (12.46674pt too wide) in paragraph at lines 328--328
+ [][][] 
+ []
+
+
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
@@ -1994,37 +2025,25 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [26
 
-] <needNorm.png, id=391, 517.935pt x 502.9992pt>
-File: needNorm.png Graphic file (type png)
- <use needNorm.png>
-Package pdftex.def Info: needNorm.png used on input line 377.
-(pdftex.def)             Requested size: 207.17032pt x 201.1961pt.
-
+]
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
 [27
 
- <./needNorm.png>] <mdsGroups.png, id=405, 441.8106pt x 432.6564pt>
-File: mdsGroups.png Graphic file (type png)
-
-<use mdsGroups.png>
-Package pdftex.def Info: mdsGroups.png used on input line 384.
-(pdftex.def)             Requested size: 207.651pt x 203.34854pt.
-
+]
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
 [28
 
- <./mdsGroups.png>] <L120scatter.png, id=418, 431.6125pt x 431.6125pt>
-File: L120scatter.png Graphic file (type png)
-
-<use L120scatter.png>
-Package pdftex.def Info: L120scatter.png used on input line 391.
-(pdftex.def)             Requested size: 202.8579pt x 202.8579pt.
+] <needNorm.png, id=420, 517.935pt x 502.9992pt>
+File: needNorm.png Graphic file (type png)
+ <use needNorm.png>
+Package pdftex.def Info: needNorm.png used on input line 392.
+(pdftex.def)             Requested size: 207.17032pt x 201.1961pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -2032,12 +2051,12 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [29
 
- <./L120scatter.png>] <dendL120.png, id=430, 479.391pt x 374.3586pt>
-File: dendL120.png Graphic file (type png)
+ <./needNorm.png>] <mdsGroups.png, id=433, 441.8106pt x 432.6564pt>
+File: mdsGroups.png Graphic file (type png)
 
-<use dendL120.png>
-Package pdftex.def Info: dendL120.png used on input line 398.
-(pdftex.def)             Requested size: 215.72395pt x 168.45981pt.
+<use mdsGroups.png>
+Package pdftex.def Info: mdsGroups.png used on input line 399.
+(pdftex.def)             Requested size: 207.651pt x 203.34854pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -2045,12 +2064,12 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [30
 
- <./dendL120.png>] <pcp2L120.png, id=443, 586.19pt x 603.25375pt>
-File: pcp2L120.png Graphic file (type png)
+ <./mdsGroups.png>] <L120scatter.png, id=446, 431.6125pt x 431.6125pt>
+File: L120scatter.png Graphic file (type png)
 
-<use pcp2L120.png>
-Package pdftex.def Info: pcp2L120.png used on input line 405.
-(pdftex.def)             Requested size: 199.30196pt x 205.10356pt.
+<use L120scatter.png>
+Package pdftex.def Info: L120scatter.png used on input line 406.
+(pdftex.def)             Requested size: 202.8579pt x 202.8579pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -2058,12 +2077,12 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [31
 
- <./pcp2L120.png>] <scatterL120.png, id=456, 602.25pt x 573.14125pt>
-File: scatterL120.png Graphic file (type png)
+ <./L120scatter.png>] <dendL120.png, id=459, 479.391pt x 374.3586pt>
+File: dendL120.png Graphic file (type png)
 
-<use scatterL120.png>
-Package pdftex.def Info: scatterL120.png used on input line 412.
-(pdftex.def)             Requested size: 216.80983pt x 206.33069pt.
+<use dendL120.png>
+Package pdftex.def Info: dendL120.png used on input line 413.
+(pdftex.def)             Requested size: 215.72395pt x 168.45981pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -2071,12 +2090,12 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [32
 
- <./scatterL120.png>] <pcp3L120.png, id=468, 592.2125pt x 599.23875pt>
-File: pcp3L120.png Graphic file (type png)
+ <./dendL120.png>] <pcp2L120.png, id=472, 586.19pt x 603.25375pt>
+File: pcp2L120.png Graphic file (type png)
 
-<use pcp3L120.png>
-Package pdftex.def Info: pcp3L120.png used on input line 419.
-(pdftex.def)             Requested size: 189.51187pt x 191.76031pt.
+<use pcp2L120.png>
+Package pdftex.def Info: pcp2L120.png used on input line 420.
+(pdftex.def)             Requested size: 199.30196pt x 205.10356pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -2084,16 +2103,12 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [33
 
- <./pcp3L120.png>] <3scatterL120.png, id=480, 502.87875pt x 562.1pt>
-File: 3scatterL120.png Graphic file (type png)
+ <./pcp2L120.png>] <scatterL120.png, id=484, 602.25pt x 573.14125pt>
+File: scatterL120.png Graphic file (type png)
 
-<use 3scatterL120.png>
-Package pdftex.def Info: 3scatterL120.png used on input line 426.
-(pdftex.def)             Requested size: 191.0959pt x 213.60022pt.
-
-Overfull \vbox (3.97362pt too high) detected at line 426
- []
-
+<use scatterL120.png>
+Package pdftex.def Info: scatterL120.png used on input line 427.
+(pdftex.def)             Requested size: 216.80983pt x 206.33069pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -2101,12 +2116,12 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [34
 
- <./3scatterL120.png>] <indSBGenes2.png, id=492, 309.3156pt x 317.5062pt>
-File: indSBGenes2.png Graphic file (type png)
+ <./scatterL120.png>] <pcp3L120.png, id=496, 592.2125pt x 599.23875pt>
+File: pcp3L120.png Graphic file (type png)
 
-<use indSBGenes2.png>
-Package pdftex.def Info: indSBGenes2.png used on input line 433.
-(pdftex.def)             Requested size: 201.05275pt x 206.37657pt.
+<use pcp3L120.png>
+Package pdftex.def Info: pcp3L120.png used on input line 434.
+(pdftex.def)             Requested size: 189.51187pt x 191.76031pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -2114,12 +2129,16 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [35
 
- <./indSBGenes2.png>] <L120_15.jpg, id=505, 481.8pt x 481.8pt>
-File: L120_15.jpg Graphic file (type jpg)
+ <./pcp3L120.png>] <3scatterL120.png, id=508, 502.87875pt x 562.1pt>
+File: 3scatterL120.png Graphic file (type png)
 
-<use L120_15.jpg>
-Package pdftex.def Info: L120_15.jpg used on input line 440.
-(pdftex.def)             Requested size: 207.16995pt x 207.16995pt.
+<use 3scatterL120.png>
+Package pdftex.def Info: 3scatterL120.png used on input line 441.
+(pdftex.def)             Requested size: 191.0959pt x 213.60022pt.
+
+Overfull \vbox (3.97362pt too high) detected at line 441
+ []
+
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -2127,12 +2146,12 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [36
 
- <./L120_15.jpg>] <L120_15_5.jpg, id=517, 481.8pt x 481.8pt>
-File: L120_15_5.jpg Graphic file (type jpg)
+ <./3scatterL120.png>] <L120_15.jpg, id=520, 481.8pt x 481.8pt>
+File: L120_15.jpg Graphic file (type jpg)
 
-<use L120_15_5.jpg>
-Package pdftex.def Info: L120_15_5.jpg used on input line 447.
-(pdftex.def)             Requested size: 202.35461pt x 202.35461pt.
+<use L120_15.jpg>
+Package pdftex.def Info: L120_15.jpg used on input line 449.
+(pdftex.def)             Requested size: 207.16995pt x 207.16995pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -2140,11 +2159,11 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [37
 
- <./L120_15_5.jpg>] <L120_15_6.jpg, id=531, 481.8pt x 481.8pt>
-File: L120_15_6.jpg Graphic file (type jpg)
+ <./L120_15.jpg>] <L120_15_5.jpg, id=534, 481.8pt x 481.8pt>
+File: L120_15_5.jpg Graphic file (type jpg)
 
-<use L120_15_6.jpg>
-Package pdftex.def Info: L120_15_6.jpg used on input line 454.
+<use L120_15_5.jpg>
+Package pdftex.def Info: L120_15_5.jpg used on input line 456.
 (pdftex.def)             Requested size: 202.35461pt x 202.35461pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
@@ -2153,15 +2172,28 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [38
 
- <./L120_15_6.jpg>]
+ <./L120_15_5.jpg>] <L120_15_6.jpg, id=546, 481.8pt x 481.8pt>
+File: L120_15_6.jpg Graphic file (type jpg)
+
+<use L120_15_6.jpg>
+Package pdftex.def Info: L120_15_6.jpg used on input line 463.
+(pdftex.def)             Requested size: 202.35461pt x 202.35461pt.
+
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
 [39
 
+ <./L120_15_6.jpg>]
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[40
+
 ]
-Overfull \hbox (12.46674pt too wide) in paragraph at lines 480--480
+Overfull \hbox (12.46674pt too wide) in paragraph at lines 489--489
  [][][] 
  []
 
@@ -2170,22 +2202,22 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[40
+[41
 
 ]
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[41
+[42
 
-] <groups.png, id=575, 528.97626pt x 150.5625pt>
+] <groups.png, id=590, 528.97626pt x 150.5625pt>
 File: groups.png Graphic file (type png)
  <use groups.png>
-Package pdftex.def Info: groups.png used on input line 503.
+Package pdftex.def Info: groups.png used on input line 512.
 (pdftex.def)             Requested size: 312.09328pt x 88.83109pt.
 
-Overfull \hbox (4.8034pt too wide) in paragraph at lines 503--503
+Overfull \hbox (4.8034pt too wide) in paragraph at lines 512--512
  [] 
  []
 
@@ -2194,27 +2226,14 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[42
+[43
 
- <./groups.png>] <boxplotPW.png, id=587, 606.265pt x 605.26125pt>
+ <./groups.png>] <boxplotPW.png, id=603, 606.265pt x 605.26125pt>
 File: boxplotPW.png Graphic file (type png)
 
 <use boxplotPW.png>
-Package pdftex.def Info: boxplotPW.png used on input line 510.
+Package pdftex.def Info: boxplotPW.png used on input line 519.
 (pdftex.def)             Requested size: 206.12737pt x 205.78609pt.
-
-Overfull \hbox (2.35556pt too wide) has occurred while \output is active
-[][] 
- []
-
-[43
-
- <./boxplotPW.png>] <mdsPW.png, id=600, 592.2125pt x 525.965pt>
-File: mdsPW.png Graphic file (type png)
-
-<use mdsPW.png>
-Package pdftex.def Info: mdsPW.png used on input line 517.
-(pdftex.def)             Requested size: 225.04308pt x 199.86876pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -2222,16 +2241,12 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [44
 
- <./mdsPW.png>] <scatMatPW.png, id=612, 702.625pt x 702.625pt>
-File: scatMatPW.png Graphic file (type png)
+ <./boxplotPW.png>] <mdsPW.png, id=615, 592.2125pt x 525.965pt>
+File: mdsPW.png Graphic file (type png)
 
-<use scatMatPW.png>
-Package pdftex.def Info: scatMatPW.png used on input line 524.
-(pdftex.def)             Requested size: 210.78912pt x 210.78912pt.
-
-Overfull \vbox (1.16252pt too high) detected at line 524
- []
-
+<use mdsPW.png>
+Package pdftex.def Info: mdsPW.png used on input line 526.
+(pdftex.def)             Requested size: 225.04308pt x 199.86876pt.
 
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
@@ -2239,14 +2254,14 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [45
 
- <./scatMatPW.png>] <degPW.png, id=624, 506.8536pt x 504.9264pt>
-File: degPW.png Graphic file (type png)
+ <./mdsPW.png>] <scatMatPW.png, id=627, 702.625pt x 702.625pt>
+File: scatMatPW.png Graphic file (type png)
 
-<use degPW.png>
-Package pdftex.def Info: degPW.png used on input line 531.
-(pdftex.def)             Requested size: 212.87706pt x 212.06764pt.
+<use scatMatPW.png>
+Package pdftex.def Info: scatMatPW.png used on input line 533.
+(pdftex.def)             Requested size: 210.78912pt x 210.78912pt.
 
-Overfull \vbox (2.44104pt too high) detected at line 531
+Overfull \vbox (1.16252pt too high) detected at line 533
  []
 
 
@@ -2256,19 +2271,24 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [46
 
- <./degPW.png>]
+ <./scatMatPW.png>] <degPW.png, id=639, 506.8536pt x 504.9264pt>
+File: degPW.png Graphic file (type png)
+
+<use degPW.png>
+Package pdftex.def Info: degPW.png used on input line 540.
+(pdftex.def)             Requested size: 212.87706pt x 212.06764pt.
+
+Overfull \vbox (2.44104pt too high) detected at line 540
+ []
+
+
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
 [47
 
-]
-Overfull \hbox (4.00392pt too wide) in paragraph at lines 562--562
-[]|\T1/lmr/m/n/8 Presentation| 
- []
-
-
+ <./degPW.png>]
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
@@ -2276,9 +2296,8 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [48
 
 ]
-Underfull \hbox (badness 1189) in paragraph at lines 580--580
-[]|\T1/lmr/m/n/8 Second re-lease of \T1/lmtt/m/n/8 ggenealogy \T1/lmr/m/n/8 pa-
-ckage,
+Overfull \hbox (4.00392pt too wide) in paragraph at lines 571--571
+[]|\T1/lmr/m/n/8 Presentation| 
  []
 
 
@@ -2289,14 +2308,53 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [49
 
 ]
+Underfull \hbox (badness 1189) in paragraph at lines 589--589
+[]|\T1/lmr/m/n/8 Second re-lease of \T1/lmtt/m/n/8 ggenealogy \T1/lmr/m/n/8 pa-
+ckage,
+ []
+
+
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-Package atenddvi Info: Last page = 50.
 [50
 
 ]
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[51
+
+]
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[52
+
+]
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[53
+
+] <indSBGenes2.png, id=719, 309.3156pt x 317.5062pt>
+File: indSBGenes2.png Graphic file (type png)
+ <use indSBGenes2.png>
+Package pdftex.def Info: indSBGenes2.png used on input line 636.
+(pdftex.def)             Requested size: 201.05275pt x 206.37657pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+Package atenddvi Info: Last page = 54.
+[54
+
+ <./indSBGenes2.png>]
 \tf@nav=\write8
 \openout8 = `main.nav'.
 
@@ -2306,40 +2364,40 @@ Package atenddvi Info: Last page = 50.
 \tf@snm=\write10
 \openout10 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 592.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 592.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 637.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 637.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 592.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 592.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 637.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 637.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 839AEDC8E4B786A73F7904C2A25A6E2C;268.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 592.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 637.
  ) 
 Here is how much of TeX's memory you used:
- 34004 strings out of 493089
- 692916 string characters out of 6134842
+ 34053 strings out of 493089
+ 693698 string characters out of 6134842
  790449 words of memory out of 5000000
- 36700 multiletter control sequences out of 15000+600000
- 65417 words of font info for 51 fonts, out of 8000000 for 9000
+ 36737 multiletter control sequences out of 15000+600000
+ 66687 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,16n,86p,10401b,721s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/lm/lmbx7.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/public/lm/lmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/lm/lmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt
-8.pfb>
-Output written on main.pdf (50 pages, 12488837 bytes).
+ist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/lm/lmri8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
+Output written on main.pdf (54 pages, 13047091 bytes).
 PDF statistics:
- 754 PDF objects out of 1000 (max. 8388607)
- 621 compressed objects within 7 object streams
- 106 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 809 PDF objects out of 1000 (max. 8388607)
+ 666 compressed objects within 7 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 322 words of extra memory for PDF output out of 10000 (max. 10000000)
 
