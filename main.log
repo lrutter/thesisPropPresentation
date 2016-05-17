@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2405,7 +2405,7 @@ dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/public/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/lm/lmri8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt10
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (54 pages, 13121792 bytes).
+Output written on main.pdf (54 pages, 13121852 bytes).
 PDF statistics:
  811 PDF objects out of 1000 (max. 8388607)
  666 compressed objects within 7 object streams
